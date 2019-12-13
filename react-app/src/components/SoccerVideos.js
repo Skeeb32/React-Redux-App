@@ -17,11 +17,12 @@ const SoccerVideos = props => {
 
   return (
     <div>
-      {/* <button onCLick={props.soccerVideos}>SOOOOOOOOOOCCER</button> */}
       {props.error && <p>{props.error}</p>}
       {console.log(props.soccerVideos)}
       {props.soccerVideos3.map((foobar, index) => (
-        <Videos key={index} bob={foobar.title} vid={foobar.videos} />
+        <Videos {...foobar}
+        
+          />
         
       ))}
     </div>
