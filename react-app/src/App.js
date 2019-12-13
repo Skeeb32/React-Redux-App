@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import { createStore, applyMiddleware, compose } from 'redux';
+// import { Provider } from 'react-redux';
+// import thunk from 'redux-thunk';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// import rootReducer from './reducer';
 
-export default App;
+// import CatFacts from './components/CatFacts';
+// import './index.css';
+
+// const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+// const store = createStore(
+//   rootReducer,
+//   composeEnhancers(applyMiddleware(thunk))
+// );
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <h1>Cat Facts</h1>
+//       <CatFacts />
+//     </div>
+//   );
+// }
+
+// const rootElement = document.getElementById('root');
+// ReactDOM.render(
+//   <Provider store={store}>
+//     <App />
+//   </Provider>,
+//   rootElement
+// );
